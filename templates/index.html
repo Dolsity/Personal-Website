@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dolsity</title>
+        <meta content="Dolsity | Home" property="og:title" />
+        <meta content="https://dolsity.github.io" property="og:url" />
+        <meta content="./styles/img/dolsity.gif" property="og:image" />
+        <meta content="#39c8ff" data-react-helmet="true" name="theme-color" />
+        <link rel="icon" href="../static/img/dolsity.gif">
+        <link rel="stylesheet" href="../static/index.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+        crossorigin="anonymous"
+        />
+    </head>
+    <body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a id="navbar__logo"><img src="../static/img/dolsity.gif" alt="Logo">Dolsity</a> 
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+            <li class="navbar__item">
+                <a href="#myskills" class="navbar__links" id="skills-page">My Skills</a>    
+            </li>
+            <li class="navbar__item">
+                <a href="#mywork" class="navbar__links" id="work-page">My Work</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section 1/3 -->
+    <div class="home" id="home">
+        <div class="home__container">
+            <h1 class="home__container_welcome">Welcome!</h1>
+            <h2 class="home__container_typer">I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+        </div>
+    </div>
+
+    <!-- My Skills 2/3 -->
+    <div class="skills" id="myskills">
+        <div class="skills_inside">
+            <h1>My Skills</h1>
+            <div class="skill">
+                <div class="skill_items">
+                    <p><i class="fas fa-file-code"></i></p><h2>HTML5 & CSS3</h2>
+                </div>
+                <div class="skill_items">
+                    <p><i class="fab fa-python"></i></p><h2>Python3</h2>
+                </div>
+                <div class="skill_items">
+                    <p><i class="fab fa-js"></i></p><h2>JavaScript</h2>
+                </div>
+                <div class="skill_items">
+                    <p><i class="fab fa-r-project"></i></p><h2>R</h2>
+                </div>
+                <div class="skill_items">
+                    <p><i class="devicon-cplusplus-plain"></i></p><h2>C++</h2>
+                </div>
+                <div class="skill_items">
+                    <p><i class="fas fa-database"></i></p><h2>SQL & MongoDB</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Work 3/3 -->
+    <div class="mywork" id="mywork">
+        <h1>My Work</h1>
+        <div class="mywork__wrapper">
+            <div class="mywork__card">
+                <h2>Fora Bot</h2>
+                <p>Fora is a verified Discord bot that offers a simple command layout that includes an economy system, and many other features.</p>
+                <a href="https://discord.com/api/oauth2/authorize?client_id=891773139200139354&permissions=414464727104&scope=bot%20applications.commands" target="_blank" rel="nofollow noopener" class="mywork__btn" aria-label="Fora"><button type="button">Learn more about Fora</button></a>
+            </div>
+            <div class="mywork__card" id="Spacery">
+                <h2>Spacery Bot</h2>
+                <p>Spacery is not like any other space Discord bot. Spacery will take you and your community into its very own universe, where the boundaries of Discord will be far exceeded.</p>
+                <div class="mywork__btn"><button type="button">Under Development</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+    <div class="footer__links">
+        <div class="footer_wrapper">
+            <div class="footer__link--items">
+                <h2>Contact Us</h2>
+                <a href="https://discord.com/users/795969792778698763" target="_blank" rel="nofollow noopener">Discord</a>
+            </div>
+        </div>
+        <div class="footer_wrapper">
+            <div class="footer__link--items">
+                <h2>Social Media</h2>
+                <a href="https://www.instagram.com/dolsity/?hl=en" target="_blank" rel="nofollow noopener">Instagram</a>
+                <a href="https://www.tiktok.com/@dolsity?lang=en" target="_blank" rel="nofollow noopener">TikTok</a>
+                <a href="https://www.youtube.com/channel/UCeg0bjKUXQqYlWh3xsGY5YA" target="_blank" rel="nofollow noopener">Youtube</a> 
+            </div>
+        </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media__wrapper">
+                <div class="footer__logo">
+                    <a id="footer__logo">Dolsity</a>
+                </div>
+                <p class="website__rights">Dolsity © 2022</p>
+                <div class="social__icons">
+                    <a href="https://www.instagram.com/dolsity/?hl=en" target="_blank" rel="nofollow noopener" class="social__icon--link" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@dolsity?lang=en" target="_blank" rel="nofollow noopener" class="social__icon--link" aria-label="tiktok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/channel/UCeg0bjKUXQqYlWh3xsGY5YA" target="_blank" rel="nofollow noopener" class="social__icon--link" aria-label="youtube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://github.com/Dolsity" target="_blank" rel="nofollow noopener" class="social__icon--link" aria-label="github"><i class="fab fa-github"></i></a>
+                    <a href="https://www.reddit.com/user/Dolsity" target="_blank" rel="nofollow noopener" class="social__icon--link" aria-label="reddit"><i class="fab fa-reddit"></i></a>
+                    <a href="https://open.spotify.com/user/corder22022" target="_blank" rel="nofollow noopener" class="social__icon--link" aria-label="spotify"><i class="fab fa-spotify"></i></a>
+                    <a href="https://www.twitch.tv/dolsity" target="_blank" rel="nofollow noopener" class="social__icon--link" aria-label="twitch"><i class="fab fa-twitch"></i></a>
+                    <a href="https://steamcommunity.com/id/Dolsity/" target="_blank" rel="nofollow noopener" class="social__icon--link" aria-label="steam"><i class="fab fa-steam"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Scripts -->
+    <script src="../static/scripts/index.js"></script>
+    <script src="../static/scripts/text.js"></script> 
+    </body>
+</html>
